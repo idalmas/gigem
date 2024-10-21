@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
-export default function Home() {
+export default function StudentsPage() {
   return (
     <div className="d-flex flex-column min-vh-100" style={{ backgroundColor: '#E8F5E9' }}>
       <div className="px-4 py-4">
@@ -16,12 +16,11 @@ export default function Home() {
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col">
-                <h1 className="h4 mb-0 text-dark">Gigem</h1>
+                <Link href="/" className="text-decoration-none">
+                  <h1 className="h4 mb-0 text-dark">Gigem</h1>
+                </Link>
               </div>
               <div className="col-auto">
-                <Link href="/students" className="btn btn-outline-dark me-2">
-                  For Students
-                </Link>
                 <button className="btn btn-outline-dark me-2">Sign In</button>
                 <button className="btn text-white" style={{ backgroundColor: 'black' }}>Sign Up</button>
               </div>
@@ -32,9 +31,9 @@ export default function Home() {
 
       <main className="flex-grow-1 d-flex flex-column justify-content-start pt-5">
         <div className="container">
-          <h1 className="display-4 mb-4 fw-bold">Find your next job</h1>
-          <Link href="INSERT-LINK" className="btn btn-success btn-lg">
-            Join the Waitlist
+          <h1 className="display-4 mb-4 fw-bold">Find your next job (in minutes) </h1>
+          <Link href="#" className="btn btn-success btn-lg">
+            Get Started
           </Link>
         </div>
       </main>
