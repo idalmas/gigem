@@ -32,7 +32,7 @@ export default function Home() {
 
       <main className="flex-grow-1 d-flex flex-column justify-content-start pt-5">
         <div className="container">
-          <h1 className="display-4 mb-4 fw-bold">Get your essay edited, code written, or logo designed by Stanford students.</h1>
+          <h1 className="display-4 mb-4 fw-bold">Get your essay edited, code written, or logo designed students at top colleges</h1>
           <Link href="https://airtable.com/appXZDsIUpmia1Bbe/pagvf3CVZ3Hyb0zyd/form" className="btn btn-success btn-lg">
             Join the Waitlist
           </Link>
