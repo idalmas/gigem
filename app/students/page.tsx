@@ -1,5 +1,8 @@
+'use client';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
+import React from 'react';
 
 export default function StudentsPage() {
   return (
@@ -31,9 +34,9 @@ export default function StudentsPage() {
 
       <main className="flex-grow-1 d-flex flex-column justify-content-start pt-5">
         <div className="container">
-          <h1 className="display-4 mb-4 fw-bold">Find your next job (in minutes) </h1>
-          <Link href="#" className="btn btn-success btn-lg">
-            Get Started
+          <h1 className="display-4 mb-4 fw-bold">Find your next job, in minutes</h1>
+          <Link href="https://airtable.com/appXZDsIUpmia1Bbe/pagqSiDdL4dB0dJOb/form" className="btn btn-success btn-lg">
+            Join the Wailist
           </Link>
         </div>
       </main>
