@@ -24,20 +24,26 @@ export default function StudentsPage() {
                 </Link>
               </div>
               <div className="col-auto">
-                <button className="btn btn-outline-dark me-2">Sign In</button>
-                <button className="btn text-white" style={{ backgroundColor: 'black' }}>Sign Up</button>
+                <Link href="/" className="btn btn-outline-dark">
+                  For Non-Students
+                </Link>
               </div>
             </div>
           </div>
         </header>
       </div>
 
-      <main className="flex-grow-1 d-flex flex-column justify-content-start pt-5">
-        <div className="container">
+      <main className="flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+        <div className="container text-center">
           <h1 className="display-4 mb-4 fw-bold">Find your next job, in minutes</h1>
-          <Link href="https://airtable.com/appXZDsIUpmia1Bbe/pagqSiDdL4dB0dJOb/form" className="btn btn-success btn-lg">
-            Join the Wailist
+          <Link href="https://airtable.com/appXZDsIUpmia1Bbe/pagqSiDdL4dB0dJOb/form" className="btn btn-success btn-lg mb-3">
+            Join the Waitlist
           </Link>
+          <div>
+            <Link href="/auth_students" className="btn btn-link text-success">
+              Already have an account? Log in
+            </Link>
+          </div>
         </div>
       </main>
     </div>
